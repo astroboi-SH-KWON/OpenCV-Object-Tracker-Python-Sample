@@ -6,6 +6,12 @@ Python版OpenCVのTracking APIのサンプルです。<br>
 # Requirement 
 * opencv-contrib-python 4.9.0.80 or later
 
+# Setting up the Environment  
+* conda create -n single_obj_tracking
+* conda activate single_obj_tracking
+* conda install conda-forge::python==3.9.0
+* pip install opencv-contrib-python==4.9.0.80
+
 # Algorithm
 2024/01/18時点でOpenCVには以下11アルゴリズムが実装されています。
 * DaSiamRPN
